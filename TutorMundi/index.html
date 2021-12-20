@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Work+Sans:wght@600&display=swap"
+        rel="stylesheet">
+    <script src="js/avalia.js"></script>
+    <link rel="stylesheet" href="css/rating.css">
+
+    <title>TutorMundi</title>
+
+</head>
+
+<body>
+
+    <div class="rating">
+        <header>
+            <img src="img/livro.png" alt="livro">
+            <h1>Como foi a ajuda <br> do tutor?</h1>
+        </header>
+
+        <main>
+            <a href="javascript:void(0)" onclick="Avaliar(1)">
+                <img src="img/star0.svg" id="s1"></a>
+
+            <a href="javascript:void(0)" onclick="Avaliar(2)">
+                <img src="img/star0.svg" id="s2"></a>
+
+            <a href="javascript:void(0)" onclick="Avaliar(3)">
+                <img src="img/star0.svg" id="s3"></a>
+
+            <a href="javascript:void(0)" onclick="Avaliar(4)">
+                <img src="img/star0.svg" id="s4"></a>
+
+            <a href="javascript:void(0)" onclick="Avaliar(5)">
+                <img src="img/star0.svg" id="s5"></a>
+
+            <div class="rating-buttons">
+                <button>
+                    Pular
+                </button>
+
+                <button class="submit-rating" onclick="viewRating()" disabled>
+                    Confirmar
+                </button>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
